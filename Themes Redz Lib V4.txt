@@ -1,5 +1,4 @@
 local Themes = {
-  -- Original Library's Theme
   ["Default"] = {
     ["Color Hub 1"] = Color3.fromRGB(18, 18, 18),
     ["Color Hub 2"] = Color3.fromRGB(25, 25, 25),
@@ -17,12 +16,11 @@ local Themes = {
     ["Tween Style"] = Enum.EasingStyle.Quad
   },
 
-  -- Credits to AstroXTeam
   ["AstroXTeam"] = {
     ["Color Hub 1"] = ColorSequence.new({
-        ColorSequenceKeypoint.new(0.00, Color3.fromRGB(28, 23, 25.5)),
-        ColorSequenceKeypoint.new(0.50, Color3.fromRGB(30.5, 30.5, 30.5)),
-        ColorSequenceKeypoint.new(1.00, Color3.fromRGB(28, 23, 25.5))
+        ColorSequenceKeypoint.new(0.00, Color3.fromRGB(28, 23, 25)),
+        ColorSequenceKeypoint.new(0.50, Color3.fromRGB(30, 30, 30)),
+        ColorSequenceKeypoint.new(1.00, Color3.fromRGB(28, 23, 25))
     }),
     ["Color Hub 2"] = Color3.fromRGB(28, 28, 28),
     ["Color Theme"] = Color3.fromRGB(255, 0, 0),
@@ -38,24 +36,23 @@ local Themes = {
     ["Tween Style"] = Enum.EasingStyle.Quad
   },
 
-
   ["GreenFusion"] = {
-    ["Color Hub 1"] = Color3.fromRGB(25, 30, 25),
-    ["Color Hub 2"] = Color3.fromRGB(35, 45, 35),
-    ["Color Theme"] = Color3.fromRGB(0, 255, 120),
-    ["Color Text"] = Color3.fromRGB(230, 255, 230),
-    ["Color Dark Text"] = Color3.fromRGB(160, 200, 160),
-    ["Color Stroke"] = Color3.fromRGB(0, 180, 90),
+    ["Color Hub 1"] = Color3.fromRGB(10, 20, 10),
+    ["Color Hub 2"] = Color3.fromRGB(20, 30, 20),
+    ["Color Theme"] = Color3.fromRGB(0, 255, 0),
+    ["Color Text"] = Color3.fromRGB(220, 255, 220),
+    ["Color Dark Text"] = Color3.fromRGB(150, 255, 150),
+    ["Color Stroke"] = Color3.fromRGB(0, 255, 100),
     ["Corner Radius"] = UDim.new(0, 8),
     ["Font"] = {
       Enum.Font.GothamBold,
       Enum.Font.GothamSemibold,
       Enum.Font.Gotham
     },
-    ["Stroke Thickness"] = 1.8,
+    ["Stroke Thickness"] = 2,
     ["Tween Style"] = Enum.EasingStyle.Sine,
-    ["Transparency"] = 0.08
-  },
+    ["Transparency"] = 0.05
+  }
 }
 
 return Themes
