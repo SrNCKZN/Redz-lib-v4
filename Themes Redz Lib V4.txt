@@ -88,6 +88,24 @@ local Themes = {
     ["Stroke Thickness"] = 2,
     ["Tween Style"] = Enum.EasingStyle.Quad,
     ["Transparency"] = 0.01
+  },
+
+  ["SynLib"] = {
+    ["Color Hub 1"] = Color3.fromRGB(35, 20, 40),
+    ["Color Hub 2"] = Color3.fromRGB(50, 30, 60),
+    ["Color Theme"] = Color3.fromRGB(200, 160, 255),
+    ["Color Text"] = Color3.fromRGB(245, 230, 255),
+    ["Color Dark Text"] = Color3.fromRGB(180, 150, 200),
+    ["Color Stroke"] = Color3.fromRGB(160, 100, 200),
+    ["Corner Radius"] = UDim.new(0, 8),
+    ["Font"] = {
+      Enum.Font.GothamBlack,
+      Enum.Font.GothamBold,
+      Enum.Font.GothamMedium
+    },
+    ["Stroke Thickness"] = 2,
+    ["Tween Style"] = Enum.EasingStyle.Quad,
+    ["Transparency"] = 0.02
   }
 }
 
